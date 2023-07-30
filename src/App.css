@@ -19,21 +19,60 @@ body {
   margin-left: auto;
 }
 
-@media (min-width: 768px) {
+
+/* Medya sorgusu 1366px ve daha küçük ekranlar için */
+@media (max-width: 1366px) {
   .container {
-    width: 750px;
+    width: 100%;
   }
 }
 
-@media (min-width: 992px) {
+/* Medya sorgusu 1280px ve daha küçük ekranlar için */
+@media (max-width: 1280px) {
   .container {
-    width: 970px;
+    width: 100%;
   }
 }
 
-@media (min-width: 1200px) {
+/* Medya sorgusu 1024px ve daha küçük ekranlar için */
+@media (max-width: 1024px) {
   .container {
-    width: 1170px;
+    width: 100%;
+  }
+}
+
+/* Medya sorgusu 812px ve daha küçük ekranlar için */
+@media (max-width: 812px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Medya sorgusu 736px ve daha küçük ekranlar için */
+@media (max-width: 736px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Medya sorgusu 667px ve daha küçük ekranlar için */
+@media (max-width: 667px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Medya sorgusu 480px ve daha küçük ekranlar için */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Medya sorgusu 414px ve daha küçük ekranlar için */
+@media (max-width: 414px) {
+  .container {
+    width: 100%;
   }
 }
 
